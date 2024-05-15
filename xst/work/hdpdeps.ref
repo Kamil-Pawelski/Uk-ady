@@ -1,0 +1,55 @@
+V3 51
+FL /home/kamil/Pulpit/aa/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /home/kamil/Pulpit/aa/Test_WAVreader.vhf 2024/04/20.11:08:56 P.20131013
+FL /home/kamil/Pulpit/aa/VGA.vhd 2024/05/15.09:52:10 P.20131013
+FL /home/kamil/Pulpit/liniazromu/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /home/kamil/Pulpit/liniazromu/Test_WAVreader.vhf 2024/04/20.11:08:57 P.20131013
+FL /home/kamil/Pulpit/liniazromu/VGA.vhd 2024/04/20.15:16:39 P.20131013
+FL /home/kamil/Pulpit/praca/Test_WAVreader.vhf 2024/04/08.22:10:23 P.20131013
+FL /home/kamil/Pulpit/praca/VGA.vhd 2024/04/07.12:14:56 P.20131013
+FL /home/kamil/Pulpit/praca/VGA_TB.vhd 2024/04/07.10:45:04 P.20131013
+EN work/VGA_TB 0 FL /home/kamil/Pulpit/praca/VGA_TB.vhd PB ieee/std_logic_1164 1381692176
+AR work/VGA_TB/behavior 0 \
+      FL /home/kamil/Pulpit/praca/VGA_TB.vhd EN work/VGA_TB 0 CP VGA
+FL /home/kamil/Pulpit/praca23/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /home/kamil/Pulpit/praca23/Test_WAVreader.vhf 2024/04/20.11:08:57 P.20131013
+FL /home/kamil/Pulpit/praca23/VGA.vhd 2024/04/20.11:57:47 P.20131013
+FL /home/kamil/Pulpit/romwav/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /home/kamil/Pulpit/romwav/Test_WAVreader.vhf 2024/04/20.11:08:56 P.20131013
+FL /home/kamil/Pulpit/romwav/VGA.vhd 2024/04/23.07:06:23 P.20131013
+FL /home/kamil/Pulpit/WavReaderVGA/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /home/kamil/Pulpit/WavReaderVGA/VGA.vhd 2024/04/08.22:51:45 P.20131013
+FL /media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+EN work/FSM_SendSamples 1715762580 \
+      FL /media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd PB ieee/std_logic_1164 1381692176
+AR work/FSM_SendSamples/Behavioral 1715762581 \
+      FL /media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd \
+      EN work/FSM_SendSamples 1715762580
+FL /media/kamil/80FD-976D/koniec/Test_WAVreader.vhf 2024/04/20.11:08:56 P.20131013
+EN work/Test_WAVreader 1715762584 \
+      FL /media/kamil/80FD-976D/koniec/Test_WAVreader.vhf PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/Test_WAVreader/BEHAVIORAL 1715762585 \
+      FL /media/kamil/80FD-976D/koniec/Test_WAVreader.vhf EN work/Test_WAVreader 1715762584 \
+      CP RotaryEnc CP FSM_SendSamples CP DACWrite CP LCD1x64 CP BUF CP WAVreader \
+      CP VGA
+FL /media/kamil/80FD-976D/koniec/VGA.vhd 2024/05/15.09:52:10 P.20131013
+EN work/VGA 1715762582 FL /media/kamil/80FD-976D/koniec/VGA.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/VGA/Behavioral 1715762583 \
+      FL /media/kamil/80FD-976D/koniec/VGA.vhd EN work/VGA 1715762582
+FL /media/kamil/80FD-976D/romwavaa/FSM_SendSamples.vhd 2011/02/18.13:05:00 P.20131013
+FL /media/kamil/80FD-976D/romwavaa/Test_WAVreader.vhf 2024/04/20.11:08:56 P.20131013
+FL /media/kamil/80FD-976D/romwavaa/VGA.vhd 2024/05/15.09:52:10 P.20131013
+FL C:/Users/lab/Desktop/praca/FSM_SendSamples.vhd 2011/02/18.12:05:00 P.20131013
+FL C:/Users/lab/Desktop/praca/Test_WAVreader.vhf 2024/04/09.10:22:35 P.20131013
+FL C:/Users/lab/Desktop/praca/VGA.vhd 2024/04/09.11:11:34 P.20131013
+FL C:/Users/lab/Desktop/romwav/FSM_SendSamples.vhd 2011/02/18.12:05:00 P.20131013
+FL C:/Users/lab/Desktop/romwav/Test_WAVreader.vhf 2024/04/20.09:08:56 P.20131013
+FL C:/Users/lab/Desktop/romwav/VGA.vhd 2024/04/23.11:52:35 P.20131013
+FL E:/romwav/FSM_SendSamples.vhd 2011/02/18.12:05:00 P.20131013
+FL E:/romwav/Test_WAVreader.vhf 2024/04/20.09:08:56 P.20131013
+FL E:/romwav/VGA.vhd 2024/04/23.10:31:42 P.20131013
+FL E:/romwavaa/FSM_SendSamples.vhd 2011/02/18.12:05:00 P.20131013
+FL E:/romwavaa/Test_WAVreader.vhf 2024/04/20.09:08:56 P.20131013
+FL E:/romwavaa/VGA.vhd 2024/05/15.09:09:38 P.20131013

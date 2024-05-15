@@ -1,0 +1,7 @@
+AR test_wavreader behavioral /media/kamil/80FD-976D/koniec/Test_WAVreader.vhf sub00/vhpl06 1715762585
+EN vga NULL /media/kamil/80FD-976D/koniec/VGA.vhd sub00/vhpl00 1715762582
+AR vga behavioral /media/kamil/80FD-976D/koniec/VGA.vhd sub00/vhpl01 1715762583
+EN test_wavreader NULL /media/kamil/80FD-976D/koniec/Test_WAVreader.vhf sub00/vhpl05 1715762584
+EN vga_tb NULL /home/kamil/Pulpit/praca/VGA_TB.vhd sub00/vhpl02 1712603417
+EN fsm_sendsamples NULL /media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd sub00/vhpl03 1715762580
+AR fsm_sendsamples behavioral /media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd sub00/vhpl04 1715762581

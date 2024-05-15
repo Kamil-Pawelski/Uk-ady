@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/kamil/80FD-976D/koniec/Test_WAVreader.ncd
+OUTFILE=/media/kamil/80FD-976D/koniec/Test_WAVreader.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=/media/kamil/80FD-976D/koniec
+LICENSE=WebPack
+USER_INFO=212998056_0_0_719

@@ -1,0 +1,5 @@
+set -tmpdir "/home/kamil/Pulpit/praca/xst/projnav.tmp"
+set -xsthdpdir "/home/kamil/Pulpit/praca/xst"
+elaborate
+-ifn VGA_TB.prj
+-ifmt mixed

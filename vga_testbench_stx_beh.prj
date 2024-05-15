@@ -1,0 +1,2 @@
+vhdl isim_temp "VGA.vhd"
+vhdl isim_temp "vgatest.vhd"

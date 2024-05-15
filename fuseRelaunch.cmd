@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/media/kamil/80FD-976D/koniec/VGATESTBENCH_isim_beh.exe" -prj "/media/kamil/80FD-976D/koniec/VGATESTBENCH_beh.prj" "work.VGATESTBENCH" 

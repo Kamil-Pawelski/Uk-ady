@@ -1,0 +1,30 @@
+Command line:
+   VGATESTBENCH_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48193
+
+Wed May 15 10:57:01 2024
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 189.018 Meg
+
+ Total Signals          : 27
+ Total Nets             : 7276
+ Total Signal Drivers   : 13
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 10
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 7826
+Total Line Count : 45
+Total Line Count : 45
+
+ Total Simulation Time: 9.34 sec
+
+ Current Memory Usage: 264.52 Meg
+
+Wed May 15 11:08:54 2024
+

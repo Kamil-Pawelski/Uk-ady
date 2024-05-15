@@ -1,0 +1,5 @@
+set -tmpdir "E:/romwavaa/xst/projnav.tmp"
+set -xsthdpdir "E:/romwavaa/xst"
+elaborate
+-ifn VGA.prj
+-ifmt mixed

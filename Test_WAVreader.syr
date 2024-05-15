@@ -1,0 +1,616 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: Test_WAVreader.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Test_WAVreader.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Test_WAVreader"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : Test_WAVreader
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/Test_WAVreader is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/Test_WAVreader.vhf", and is now defined in "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf".
+WARNING:HDLParsers:3607 - Unit work/Test_WAVreader/BEHAVIORAL is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/Test_WAVreader.vhf", and is now defined in "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf".
+WARNING:HDLParsers:3607 - Unit work/FSM_SendSamples is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/FSM_SendSamples.vhd", and is now defined in "/media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd".
+WARNING:HDLParsers:3607 - Unit work/FSM_SendSamples/Behavioral is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/FSM_SendSamples.vhd", and is now defined in "/media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/VGA.vhd", and is now defined in "/media/kamil/80FD-976D/koniec/VGA.vhd".
+WARNING:HDLParsers:3607 - Unit work/VGA/Behavioral is now defined in a different file.  It was defined in "/home/kamil/Pulpit/aa/VGA.vhd", and is now defined in "/media/kamil/80FD-976D/koniec/VGA.vhd".
+Compiling vhdl file "/media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd" in Library work.
+Architecture behavioral of Entity fsm_sendsamples is up to date.
+Compiling vhdl file "/media/kamil/80FD-976D/koniec/VGA.vhd" in Library work.
+Architecture behavioral of Entity vga is up to date.
+Compiling vhdl file "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" in Library work.
+Architecture behavioral of Entity test_wavreader is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Test_WAVreader> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FSM_SendSamples> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Test_WAVreader> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" line 184: Instantiating black box module <RotaryEnc>.
+WARNING:Xst:753 - "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" line 205: Unconnected output port 'SF_CE0' of component 'DACWrite'.
+WARNING:Xst:2211 - "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" line 205: Instantiating black box module <DACWrite>.
+WARNING:Xst:2211 - "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" line 225: Instantiating black box module <LCD1x64>.
+WARNING:Xst:2211 - "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf" line 252: Instantiating black box module <WAVreader>.
+Entity <Test_WAVreader> analyzed. Unit <Test_WAVreader> generated.
+
+Analyzing Entity <FSM_SendSamples> in library <work> (Architecture <behavioral>).
+Entity <FSM_SendSamples> analyzed. Unit <FSM_SendSamples> generated.
+
+Analyzing Entity <VGA> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "/media/kamil/80FD-976D/koniec/VGA.vhd" line 74: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <ROM> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "/media/kamil/80FD-976D/koniec/VGA.vhd" line 118: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <ROM> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <VGA> analyzed. Unit <VGA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <FSM_SendSamples>.
+    Related source file is "/media/kamil/80FD-976D/koniec/FSM_SendSamples.vhd".
+WARNING:Xst:647 - Input <SampL<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <SampR<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 9                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | sreset                                         |
+    | Power Up State     | sreset                                         |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <FSM_SendSamples> synthesized.
+
+
+Synthesizing Unit <VGA>.
+    Related source file is "/media/kamil/80FD-976D/koniec/VGA.vhd".
+WARNING:Xst:647 - Input <SampL<6:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <SampR> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 800x9-bit dual-port RAM <Mram_ROM> for signal <ROM>.
+    Found 11-bit up counter for signal <H_COUNTER>.
+    Found 11-bit up counter for signal <V_COUNTER>.
+    Found 1-bit register for signal <V_ENABLE>.
+    Found 11-bit comparator equal for signal <VGA_B$cmp_eq0000> created at line 118.
+    Found 11-bit comparator less for signal <VGA_B$cmp_lt0000> created at line 117.
+    Found 11-bit comparator less for signal <VGA_B$cmp_lt0001> created at line 117.
+    Found 11-bit comparator greatequal for signal <VGA_HS$cmp_ge0000> created at line 107.
+    Found 11-bit comparator less for signal <VGA_HS$cmp_lt0000> created at line 107.
+    Found 11-bit comparator greatequal for signal <VGA_VS$cmp_ge0000> created at line 108.
+    Found 11-bit comparator less for signal <VGA_VS$cmp_lt0000> created at line 108.
+    Found 11-bit up counter for signal <WRITE_COUNTER>.
+    Found 1-bit register for signal <WRITE_ENABLE>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   3 Counter(s).
+	inferred   2 D-type flip-flop(s).
+	inferred   7 Comparator(s).
+Unit <VGA> synthesized.
+
+
+Synthesizing Unit <Test_WAVreader>.
+    Related source file is "/media/kamil/80FD-976D/koniec/Test_WAVreader.vhf".
+WARNING:Xst:653 - Signal <Line<63:16>> is used but never assigned. This sourceless signal will be automatically connected to value 000000000000000000000000000000000000000000000000.
+Unit <Test_WAVreader> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 800x9-bit dual-port RAM                               : 1
+# Counters                                             : 3
+ 11-bit up counter                                     : 3
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Comparators                                          : 7
+ 11-bit comparator equal                               : 1
+ 11-bit comparator greatequal                          : 2
+ 11-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_30/State/FSM> on signal <State[1:3]> with gray encoding.
+--------------------
+ State  | Encoding
+--------------------
+ sreset | 000
+ sready | 001
+ swaitl | 011
+ ssendl | 010
+ swaitr | 110
+ ssendr | 111
+--------------------
+Reading core <RotaryEnc.ngc>.
+Reading core <DACWrite.ngc>.
+Reading core <LCD1x64.ngc>.
+Reading core <WAVreader.ngc>.
+Loading core <RotaryEnc> for timing and area information for instance <XLXI_1>.
+Loading core <DACWrite> for timing and area information for instance <XLXI_31>.
+Loading core <LCD1x64> for timing and area information for instance <XLXI_40>.
+Loading core <WAVreader> for timing and area information for instance <XLXI_74>.
+
+Synthesizing (advanced) Unit <VGA>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ROM> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 800-word x 9-bit                    |          |
+    |     clkA           | connected to signal <Clk_50MHz>     | rise     |
+    |     weA            | connected to signal <WRITE_ENABLE>  | high     |
+    |     addrA          | connected to signal <WRITE_COUNTER> |          |
+    |     diA            | connected to signal <SampL>         |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 800-word x 9-bit                    |          |
+    |     addrB          | connected to signal <H_COUNTER>     |          |
+    |     doB            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <VGA> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 800x9-bit dual-port distributed RAM                   : 1
+# Counters                                             : 3
+ 11-bit up counter                                     : 3
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+# Comparators                                          : 7
+ 11-bit comparator equal                               : 1
+ 11-bit comparator greatequal                          : 2
+ 11-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <WRITE_COUNTER_10> of sequential type is unconnected in block <VGA>.
+
+Optimizing unit <Test_WAVreader> ...
+
+Optimizing unit <VGA> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Test_WAVreader, actual ratio is 27.
+INFO:Xst:2260 - The FF/Latch <cntDigit_0> in Unit <XLXI_40> is equivalent to the following 4 FFs/Latches : <cntDigit_0_1> <cntDigit_0_2> <cntDigit_0_3> <cntDigit_0_4> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_1> in Unit <XLXI_40> is equivalent to the following 2 FFs/Latches : <cntDigit_1_1> <cntDigit_1_2> 
+INFO:Xst:2260 - The FF/Latch <State_16> in Unit <XLXI_40> is equivalent to the following FF/Latch : <State_16_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/SpC_1> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/SpC_1_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/State_11> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/State_11_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/State_15> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/State_15_1> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_0> in Unit <XLXI_40> is equivalent to the following 4 FFs/Latches : <cntDigit_0_1> <cntDigit_0_2> <cntDigit_0_3> <cntDigit_0_4> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_1> in Unit <XLXI_40> is equivalent to the following 2 FFs/Latches : <cntDigit_1_1> <cntDigit_1_2> 
+INFO:Xst:2260 - The FF/Latch <State_16> in Unit <XLXI_40> is equivalent to the following FF/Latch : <State_16_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/SpC_1> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/SpC_1_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/State_11> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/State_11_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_4/XLXI_94/State_15> in Unit <XLXI_74> is equivalent to the following FF/Latch : <XLXI_4/XLXI_94/State_15_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 37
+ Flip-Flops                                            : 37
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Test_WAVreader.ngr
+Top Level Output File Name         : Test_WAVreader
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 40
+
+Cell Usage :
+# BELS                             : 3487
+#      BUF                         : 4
+#      GND                         : 5
+#      INV                         : 71
+#      LUT1                        : 181
+#      LUT2                        : 231
+#      LUT2_D                      : 12
+#      LUT2_L                      : 24
+#      LUT3                        : 681
+#      LUT3_D                      : 18
+#      LUT3_L                      : 11
+#      LUT4                        : 875
+#      LUT4_D                      : 70
+#      LUT4_L                      : 103
+#      MULT_AND                    : 10
+#      MUXCY                       : 429
+#      MUXF5                       : 258
+#      MUXF6                       : 73
+#      MUXF7                       : 32
+#      MUXF8                       : 9
+#      OR2                         : 2
+#      VCC                         : 5
+#      XORCY                       : 383
+# FlipFlops/Latches                : 848
+#      FD                          : 99
+#      FDC                         : 15
+#      FDCE                        : 11
+#      FDE                         : 217
+#      FDR                         : 80
+#      FDRE                        : 252
+#      FDRS                        : 17
+#      FDRSE                       : 8
+#      FDS                         : 144
+#      FDSE                        : 5
+# RAMS                             : 451
+#      RAM16X1D                    : 450
+#      RAMB16_S9_S9                : 1
+# Shift Registers                  : 2
+#      SRL16                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 39
+#      IBUF                        : 9
+#      IOBUF                       : 4
+#      OBUF                        : 26
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                     1288  out of   4656    27%  
+ Number of Slice Flip Flops:            848  out of   9312     9%  
+ Number of 4 input LUTs:               3179  out of   9312    34%  
+    Number used as logic:              2277
+    Number used as Shift registers:       2
+    Number used as RAMs:                900
+ Number of IOs:                          40
+ Number of bonded IOBs:                  40  out of    232    17%  
+ Number of BRAMs:                         1  out of     20     5%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk_50MHz                          | BUFGP                  | 1301  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+BTN_SOUTH                          | IBUF                   | 26    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 10.088ns (Maximum Frequency: 99.124MHz)
+   Minimum input arrival time before clock: 7.965ns
+   Maximum output required time after clock: 12.869ns
+   Maximum combinational path delay: 6.793ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk_50MHz'
+  Clock period: 10.088ns (frequency: 99.124MHz)
+  Total number of paths / destination ports: 81566 / 6322
+-------------------------------------------------------------------------
+Delay:               10.088ns (Levels of Logic = 36)
+  Source:            XLXI_74/XLXI_4/XLXI_94/State_21 (FF)
+  Destination:       XLXI_74/XLXI_4/XLXI_94/adrSec_31 (FF)
+  Source Clock:      Clk_50MHz rising
+  Destination Clock: Clk_50MHz rising
+
+  Data Path: XLXI_74/XLXI_4/XLXI_94/State_21 to XLXI_74/XLXI_4/XLXI_94/adrSec_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             79   0.514   1.237  XLXI_4/XLXI_94/State_21 (XLXI_4/XLXI_94/State<21>)
+     LUT2_D:I0->O         11   0.612   0.796  XLXI_4/XLXI_94/adrSec_or00001 (XLXI_4/XLXI_94/adrSec_or0000)
+     LUT4_D:I3->O         17   0.612   0.896  XLXI_4/XLXI_94/adrSec_mux0005<25>25 (XLXI_4/XLXI_94/N61)
+     LUT4:I3->O            1   0.612   0.360  XLXI_4/XLXI_94/adrSec_mux0005<30>1 (XLXI_4/XLXI_94/adrSec_mux0005<30>)
+     LUT4:I3->O            1   0.612   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_lut<1> (XLXI_4/XLXI_94/Madd_adrSec_share0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<1> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<2> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<3> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<4> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<5> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<6> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<7> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<8> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<9> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<10> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<11> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<12> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<13> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<14> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<15> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<16> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<17> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<18> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<19> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<20> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<21> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<22> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<23> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<24> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<25> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<26> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<27> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<28> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<29> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<29>)
+     MUXCY:CI->O           0   0.051   0.000  XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<30> (XLXI_4/XLXI_94/Madd_adrSec_share0000_cy<30>)
+     XORCY:CI->O           1   0.699   0.360  XLXI_4/XLXI_94/Madd_adrSec_share0000_xor<31> (XLXI_4/XLXI_94/adrSec_share0000<31>)
+     LUT4:I3->O            1   0.612   0.000  XLXI_4/XLXI_94/adrSec_mux0004<31>23 (XLXI_4/XLXI_94/adrSec_mux0004<31>23)
+     FDS:D                     0.268          XLXI_4/XLXI_94/adrSec_31
+    ----------------------------------------
+    Total                     10.088ns (6.438ns logic, 3.650ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 190 / 174
+-------------------------------------------------------------------------
+Offset:              7.965ns (Levels of Logic = 9)
+  Source:            SW_0 (PAD)
+  Destination:       XLXI_74/XLXI_4/XLXI_94/State_23 (FF)
+  Destination Clock: Clk_50MHz rising
+
+  Data Path: SW_0 to XLXI_74/XLXI_4/XLXI_94/State_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.357  SW_0_IBUF (SW_0_IBUF)
+     BUF:I->O              1   0.612   0.509  XLXI_69 (FName<0>)
+     begin scope: 'XLXI_74'
+     LUT2:I0->O            1   0.612   0.426  XLXI_4/XLXI_94/NextState_and0010124 (XLXI_4/XLXI_94/NextState_and0010124)
+     LUT4:I1->O            2   0.612   0.383  XLXI_4/XLXI_94/NextState_and0010159_SW0 (N493)
+     LUT4_L:I3->LO         1   0.612   0.169  XLXI_4/XLXI_94/NextState_and0010159 (XLXI_4/XLXI_94/NextState_and0010)
+     LUT3:I1->O            1   0.612   0.360  XLXI_4/XLXI_94/State_mux0002<8>110 (XLXI_4/XLXI_94/State_mux0002<8>110)
+     LUT4_L:I3->LO         1   0.612   0.103  XLXI_4/XLXI_94/State_mux0002<8>129_SW0 (N459)
+     LUT4:I3->O            1   0.612   0.000  XLXI_4/XLXI_94/State_mux0002<8>1831 (XLXI_4/XLXI_94/State_mux0002<8>183)
+     FDS:D                     0.268          XLXI_4/XLXI_94/State_23
+    ----------------------------------------
+    Total                      7.965ns (5.658ns logic, 2.307ns route)
+                                       (71.0% logic, 29.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 13122 / 23
+-------------------------------------------------------------------------
+Offset:              12.869ns (Levels of Logic = 16)
+  Source:            XLXI_77/H_COUNTER_2 (FF)
+  Destination:       VGA_B (PAD)
+  Source Clock:      Clk_50MHz rising
+
+  Data Path: XLXI_77/H_COUNTER_2 to VGA_B
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q            452   0.514   1.186  XLXI_77/H_COUNTER_2 (XLXI_77/H_COUNTER_2)
+     RAM16X1D:DPRA2->DPO    1   0.612   0.426  XLXI_77/Mram_ROM1 (XLXI_77/N53)
+     LUT3:I1->O            1   0.612   0.000  XLXI_77/inst_LPM_MUX_13 (XLXI_77/inst_LPM_MUX_13)
+     MUXF5:I0->O           1   0.278   0.000  XLXI_77/inst_LPM_MUX_11_f5 (XLXI_77/inst_LPM_MUX_11_f5)
+     MUXF6:I0->O           1   0.451   0.000  XLXI_77/inst_LPM_MUX_9_f6 (XLXI_77/inst_LPM_MUX_9_f6)
+     MUXF7:I0->O           1   0.451   0.000  XLXI_77/inst_LPM_MUX_7_f7 (XLXI_77/inst_LPM_MUX_7_f7)
+     MUXF8:I0->O           2   0.451   0.383  XLXI_77/inst_LPM_MUX_5_f8 (XLXI_77/inst_LPM_MUX_5_f8)
+     LUT4:I3->O            1   0.612   0.000  XLXI_77/H_COUNTER<9>1291 (XLXI_77/H_COUNTER<9>129)
+     MUXF5:I1->O           1   0.278   0.426  XLXI_77/H_COUNTER<9>129_f5 (XLXI_77/_varindex0000<0>)
+     LUT4:I1->O            1   0.612   0.000  XLXI_77/Mcompar_VGA_B_cmp_eq0000_lut<1> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_lut<1>)
+     MUXCY:S->O            1   0.404   0.000  XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<1> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<2> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<3> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<4> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<4>)
+     MUXCY:CI->O           1   0.399   0.387  XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<5> (XLXI_77/Mcompar_VGA_B_cmp_eq0000_cy<5>)
+     LUT4:I2->O            3   0.612   0.451  XLXI_77/VGA_G88 (VGA_B_OBUF)
+     OBUF:I->O                 3.169          VGA_B_OBUF (VGA_B)
+    ----------------------------------------
+    Total                     12.869ns (9.610ns logic, 3.259ns route)
+                                       (74.7% logic, 25.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               6.793ns (Levels of Logic = 4)
+  Source:            Clk_50MHz (PAD)
+  Destination:       SPI_SCK (PAD)
+
+  Data Path: Clk_50MHz to SPI_SCK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     BUFGP:I->O         1303   1.457   1.199  Clk_50MHz_BUFGP (Clk_50MHz_BUFGP)
+     begin scope: 'XLXI_31'
+     INV:I->O              1   0.612   0.357  SPI_SCK1_INV_0 (SPI_SCK)
+     end scope: 'XLXI_31'
+     OBUF:I->O                 3.169          SPI_SCK_OBUF (SPI_SCK)
+    ----------------------------------------
+    Total                      6.793ns (5.238ns logic, 1.556ns route)
+                                       (77.1% logic, 22.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 7.65 secs
+ 
+--> 
+
+
+Total memory usage is 561940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   19 (   0 filtered)
+Number of infos    :   15 (   0 filtered)
+

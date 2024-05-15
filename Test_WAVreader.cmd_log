@@ -1,0 +1,282 @@
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../WavReaderVGA -nt timestamp -uc GenIO.ucf -uc LCD.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf GenIO.ucf -ucf LCD.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../WavReaderVGA -nt timestamp -uc GenIO.ucf -uc LCD.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf GenIO.ucf -ucf LCD.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../WavReaderVGA -nt timestamp -uc GenIO.ucf -uc LCD.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf GenIO.ucf -ucf LCD.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../WavReaderVGA -nt timestamp -uc GenIO.ucf -uc LCD.ucf -uc PS2_USB_SDC.ucf -uc ADC_DAC.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf GenIO.ucf -ucf LCD.ucf -ucf PS2_USB_SDC.ucf -ucf ADC_DAC.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/praca/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/praca/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc ADC_DAC.ucf -uc GenIO.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf ADC_DAC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/praca23/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/praca23/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/liniazromu/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/romwav/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/romwav/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "E:/romwav/Test_WAVreader.xst" -ofn "E:/romwav/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/romwav/Test_WAVreader.xst" -ofn "C:/Users/lab/Desktop/romwav/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "E:/romwavaa/Test_WAVreader.xst" -ofn "E:/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "E:/romwavaa/Test_WAVreader.xst" -ofn "E:/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc LCD.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf LCD.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/romwavaa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/home/kamil/Pulpit/aa/Test_WAVreader.xst" -ofn "/home/kamil/Pulpit/aa/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+xst -intstyle ise -ifn "/media/kamil/80FD-976D/koniec/Test_WAVreader.xst" -ofn "/media/kamil/80FD-976D/koniec/Test_WAVreader.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ADC_DAC.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-5 Test_WAVreader.ngc Test_WAVreader.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Test_WAVreader_map.ncd Test_WAVreader.ngd Test_WAVreader.pcf 
+par -w -intstyle ise -ol high -t 1 Test_WAVreader_map.ncd Test_WAVreader.ncd Test_WAVreader.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f Test_WAVreader.ut Test_WAVreader.ncd 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+xpwr -intstyle ise Test_WAVreader.ncd Test_WAVreader.pcf -o Test_WAVreader.pwr 
+netgen -intstyle ise -s 5  -pcf Test_WAVreader.pcf -rpw 100 -tpw 0 -ar Structure -tm Test_WAVreader -insert_pp_buffers true -w -dir netgen/par -ofmt vhdl -sim Test_WAVreader.ncd Test_WAVreader_timesim.vhd 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Test_WAVreader.twx Test_WAVreader.ncd -o Test_WAVreader.twr Test_WAVreader.pcf -ucf ADC_DAC.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
